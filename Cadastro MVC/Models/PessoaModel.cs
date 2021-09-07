@@ -30,7 +30,7 @@ namespace Cadastro_MVC.Models
         public string PessoaTelefone { get; set; }
 
         // Criar uma CONSTANTE para conectar com o Banco de dados //
-        readonly string connectionString = @"Data Source=DESKTOP-CA4HCV6\SQLEXPRESS;Initial Catalog=cadastro_mvc;Integrated Security=True";
+        readonly string connectionString = @"Data Source=DESKTOP-I0KIAAV\SQLEXPRESS;Initial Catalog=cadastro_mvc;Integrated Security=True";
 
         public DataTable Listar()
         {
